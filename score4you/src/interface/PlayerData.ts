@@ -1,5 +1,3 @@
 export default interface PlayerData {
-  first_name: string;
-  last_name: string;
-  email: string;
+  player_name: string;
 }

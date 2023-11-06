@@ -11,12 +11,7 @@ function App() {
       <h1>score4you</h1>
       <div className="player-grid">
         {data?.map((playerData, index) => (
-          <CardPlayer
-            key={index}
-            first_name={playerData.first_name}
-            last_name={playerData.last_name}
-            email={playerData.email}
-          />
+          <CardPlayer key={index} player_name={playerData.player_name} />
         ))}
       </div>
     </div>
