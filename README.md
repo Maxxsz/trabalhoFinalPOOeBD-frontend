@@ -1,2 +1,3 @@
 # trabalhoFinalPOOeBD-frontend
- front da aplicação web
+
+executar o comando npm run dev na pasta root

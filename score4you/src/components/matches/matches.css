@@ -1,0 +1,8 @@
+.scoreboard {
+  text-align: center;
+}
+
+.match-list {
+  display: flex;
+  flex-direction: column;
+}

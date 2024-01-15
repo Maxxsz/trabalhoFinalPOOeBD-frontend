@@ -18,6 +18,6 @@ export default function usePlayerData() {
 
   return {
     ...query,
-    data: query.data?.data,
+    players: query.data?.data,
   };
 }
